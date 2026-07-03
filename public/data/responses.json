@@ -1,0 +1,66 @@
+[
+  {
+    "text": "It is certain.",
+    "weight": 50.0,
+    "rarity": "Common",
+    "textColor": "#ffffff",
+    "glowColor": "rgba(0, 168, 255, 0.4)",
+    "sound": "common.mp3",
+    "animation": "fade-reveal",
+    "tags": ["positive", "sure"]
+  },
+  {
+    "text": "Reply hazy, try again.",
+    "weight": 20.0,
+    "rarity": "Uncommon",
+    "textColor": "#eccc68",
+    "glowColor": "rgba(236, 204, 104, 0.4)",
+    "sound": "uncommon.mp3",
+    "animation": "hazy-reveal",
+    "tags": ["neutral", "uncertain"]
+  },
+  {
+    "text": "Don't count on it.",
+    "weight": 8.0,
+    "rarity": "Rare",
+    "textColor": "#ff6b81",
+    "glowColor": "rgba(255, 107, 129, 0.5)",
+    "sound": "rare.mp3",
+    "animation": "shake-reveal",
+    "tags": ["negative", "sure"],
+    "customBehavior": "screen-shake"
+  },
+  {
+    "text": "The cosmos aligns in your favor!",
+    "weight": 2.0,
+    "rarity": "Epic",
+    "textColor": "#a55eea",
+    "glowColor": "rgba(165, 94, 234, 0.7)",
+    "sound": "epic.mp3",
+    "animation": "pulse-reveal",
+    "tags": ["positive", "cosmic"],
+    "customBehavior": "flash-effect"
+  },
+  {
+    "text": "🌟 ABSOLUTELY MAGNIFICENT DESTINY 🌟",
+    "weight": 0.1,
+    "rarity": "Legendary",
+    "textColor": "#ffd700",
+    "glowColor": "rgba(255, 215, 0, 0.9)",
+    "sound": "legendary.mp3",
+    "animation": "gold-reveal",
+    "tags": ["positive", "rare-event"],
+    "customBehavior": "gold-glow-confetti"
+  },
+  {
+    "text": "🌌 YOU HAVE AWAKENED THE MYTHIC TRUTH 🌌",
+    "weight": 0.01,
+    "rarity": "Mythic",
+    "textColor": "#00ffff",
+    "glowColor": "linear-gradient(45deg, #ff007f, #7f00ff, #00ffff)",
+    "sound": "mythic.mp3",
+    "animation": "cosmic-shatter",
+    "tags": ["cosmic", "ultra-rare"],
+    "customBehavior": "rainbow-glow-fireworks"
+  }
+]
